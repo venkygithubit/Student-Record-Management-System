@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD-APPLICATION</title>
+</head>
+
+<body>
+
+    <h1>Computer Science and Engineering Students Marks</h1>
+
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit(event)">
+                    <div>
+                        <label for="productCode">College_Registration_Number</label>
+                        <input type="text" id="productCode" placeholder="Enter Registration number" required />
+                    </div>
+
+                    <div>
+                        <label for="product">Student Name</label>
+                        <input type="text" id="product" placeholder="Enter Student Name" required />
+                    </div>
+
+                    <div>
+                        <label for="qty">Rank</label>
+                        <input type="text" id="qty" placeholder="Enter Student Rank" required />
+                    </div>
+
+                    <div>
+                        <label for="perPrice">Section Name</label>
+                        <input type="text" id="perPrice" placeholder="Enter Section Name" required />
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    </div>
+                </form>
+            </td>
+
+            <td>
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Student Name</th>
+                            <th>Rank</th>
+                            <th>Section</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
