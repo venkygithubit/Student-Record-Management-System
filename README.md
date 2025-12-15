@@ -11,10 +11,15 @@ development.
 
 # Technologies Used:-
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js, Express.js
+
 Database: MongoDB Atlas
+
 ODM: Mongoose
+
 API Communication: Fetch API
+
 Tools: VS Code, MongoDB Compass, Postman (for testing)
 
 # Key Features
