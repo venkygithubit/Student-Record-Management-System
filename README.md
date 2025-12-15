@@ -1,4 +1,4 @@
-Project Description:-
+# Project Description:-
 The Student Record Management System is a full-stack web application that stores, manages, and maintains student academic records efficiently. The system enables users to add,
 view, update, and delete student details like college registration number, student name, rank, and section through an easy-to-use web interface.The frontend is built with HTML
 , CSS, and JavaScript. It features an interactive form and a dynamic table that displays student records. The backend uses Node.js and Express.js, which provides RESTful APIs 
@@ -9,7 +9,7 @@ persistence even after a page refresh. Edit and delete actions are synchronized 
 showcases a complete integration of frontend and backend technologies without relying on frontend frameworks. It is ideal for learning the fundamental concepts of full-stack
 development.
 
-Technologies Used:-
+# Technologies Used:-
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB Atlas
@@ -17,7 +17,7 @@ ODM: Mongoose
 API Communication: Fetch API
 Tools: VS Code, MongoDB Compass, Postman (for testing)
 
-Key Features
+# Key Features
 1)Add new student records
 2)View all student records
 3)Edit existing student details
@@ -26,7 +26,7 @@ Key Features
 6)Dynamic UI updates without page reload
 
 
-How to Run the Project:-
+# How to Run the Project:-
 
 1)Install Backend Dependencies
 npm install (express,nodemon,dotenv,mongodb,mongoose,bosy-parser,cors)
